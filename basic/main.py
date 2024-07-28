@@ -6,6 +6,7 @@ CONFIG = {
 class SquareToCircle(Scene):
     def construct(self):
         # Setting background color
+        self.camera.background_color = WHITE
         circle = Circle()
         square = Square()
         square.flip(RIGHT)
